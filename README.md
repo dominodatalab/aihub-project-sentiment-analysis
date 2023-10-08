@@ -2,6 +2,8 @@
 
 In this project we demonstrate the use of a pre-trained Masked Language Model (LLM) known as BERT in Domino and the process of fine-tunning the model for a specific task.
 
+## About this project
+
 Fine-tuning a pre-trained transformer an effective and state-of-the-art technique for solving NLP problems.
 
 1. The process typically begins with a pre-trained model, which is not task specific. This model is trained on a large corpora of unlabelled data (e.g. Wikipedia) using masked-language modelling loss. Bidirectional Encoder Representations from Transformers (BERT) is an example for such a model [1].
