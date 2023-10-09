@@ -1,8 +1,11 @@
-# Fine-tuning a pre-trained transformer on sentiment analysis
+# Sentiment analysis on product review data
 
 In this project we demonstrate the use of a pre-trained Masked Language Model (LLM) known as BERT in Domino and the process of fine-tunning the model for a specific task.
 
-## About this project
+## License
+This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+
+## About this template
 
 Fine-tuning a pre-trained transformer an effective and state-of-the-art technique for solving NLP problems.
 
