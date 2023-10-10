@@ -52,7 +52,7 @@ The **score.py** provides a scoring function with the following signature: `pred
 This projects needs the following custom Docker container:
 
 ```
-FROM quay.io/domino/compute-environment-images:ubuntu20-py3.9-r4.2-domino5.4-gpu
+FROM quay.io/domino/pre-release-environments:project-hub-gpu.main.latest
 
 USER ubuntu
 COPY requirements.txt .
