@@ -52,6 +52,7 @@ The **score.py** provides a scoring function with the following signature: `pred
 This project requires the following [compute environments](https://docs.dominodatalab.com/en/latest/user_guide/f51038/environments/) to be present. Please ensure the "Automatically make compatible with Domino" checkbox is selected while creating the environment.
 
 **Environment Base** 
+
 `quay.io/domino/pre-release-environments:project-hub-gpu.main.latest`
 
 
