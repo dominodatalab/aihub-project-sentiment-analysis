@@ -52,7 +52,13 @@ api_token = "VpPZFx2CrKooOgYuI44Nh60Lagxbig4UpN0pni0SDvLrKM6pIR1UNG9ExydoqBhc"
 response = requests.post(
     api_url, auth=(api_token, api_token), json={"data": {"sentence": fintext}}
 )
-results.append(response.json().get("result"))
+try:
+    results.append(response.json().get('result'))
+except requests.exceptions.RequestsJSONDecodeError:
+    # Handle the error as you see fit.
+    # For example, you can log the error and continue with default values.
+    print(f"Failed to decode JSON from response")
+    results.append("Failed to decode JSON from response, please check your model API")  # or provide a default value
 
 ### Results ###
 result_text = "NA"
