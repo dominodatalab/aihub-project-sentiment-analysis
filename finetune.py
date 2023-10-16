@@ -222,7 +222,7 @@ def main():
     ds = ds.map(partial(preprocess_function, tokenizer))
 
     train_args = TrainingArguments(
-        output_dir="/mnt/artifacts/",
+        output_dir="/mnt/artifacts/temp/",
         evaluation_strategy="steps",
         learning_rate=args.lr,
         per_device_train_batch_size=args.train_batch_size,
