@@ -1,6 +1,6 @@
 # Sentiment analysis on product review data
 
-In this project we demonstrate the use of a pre-trained Masked Language Model (LLM) known as BERT in Domino and the process of fine-tunning the model for a specific task.
+In this project we demonstrate the use of a pre-trained Masked Language Model (MLM) known as BERT in Domino and the process of fine-tunning the model for a specific task.
 
 ## License
 This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
