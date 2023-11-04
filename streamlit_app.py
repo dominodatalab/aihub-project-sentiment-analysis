@@ -54,11 +54,10 @@ response = requests.post(
 )
 try:
     results.append(response.json().get('result'))
-except requests.exceptions.RequestsJSONDecodeError:
+except Exception:
     # Handle the error as you see fit.
     # For example, you can log the error and continue with default values.
     print(f"Failed to decode JSON from response")
-    results.append("Failed to decode JSON from response, please check your model API")  # or provide a default value
 
 ### Results ###
 result_text = "NA"
