@@ -3,7 +3,13 @@
 In this project we demonstrate the use of a pre-trained Masked Language Model (MLM) known as BERT in Domino and the process of fine-tunning the model for a specific task.
 
 ## License
-This template is licensed to Customer subject to the terms of the license agreement between Domino and the Customer on file.
+This template is licensed under Apache 2.0 and contains the following components: 
+* distilbert [Apache 2.0](https://huggingface.co/distilbert-base-uncased)
+* NVIDIA [EULA](https://docs.nvidia.com/cuda/eula/index.html#license-grant)
+* pandas [BSD 3](https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+* MLFlow [Apache 2.0](https://github.com/mlflow/mlflow/blob/master/LICENSE.txt)
+* Transformer [Apache 2.0](https://github.com/huggingface/transformers/blob/main/LICENSE)
+* pytorch [Caffe 2](https://github.com/pytorch/pytorch/blob/main/LICENSE)
 
 ## About this template
 
