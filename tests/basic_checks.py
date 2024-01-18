@@ -38,7 +38,7 @@ class TestSentimentAnalysis(unittest.TestCase):
     def test_library_streamlit_installed(self):
         """ Test if streamlit library is installed """
         streamlit_installed = importlib.util.find_spec("streamlit") is not None
-        self.assertTrue(streamlit_installed, "streamlit library is not installed")\
+        self.assertTrue(streamlit_installed, "streamlit library is not installed")
 
 if __name__ == '__main__':
     unittest.main()
