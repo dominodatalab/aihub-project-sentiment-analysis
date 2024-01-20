@@ -23,7 +23,7 @@ class TestSentimentAnalysis(unittest.TestCase):
     def test_library_evaluate_installed(self):
         """ Test if evaluate library is installed """
         evaluate_installed = importlib.util.find_spec("evaluate") is not None
-        self.assertTrue(numpy_installed, "evaluate library is not installed")
+        self.assertTrue(evaluate_installed, "evaluate library is not installed")
         
     def test_library_accelerate_installed(self):
         """ Test if accelerate library is installed """
